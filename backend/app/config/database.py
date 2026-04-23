@@ -1,10 +1,10 @@
 from pymongo import MongoClient
 
-MONGO_URI = "mongodb+srv://Dhanashree:d_dodiya629@cluster0.c7ock.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URI = "mongodb+srv://Name:<password>@cluster0.c7ock.mongodb.net/?retryWrites=true&w=majority"
 
 client = MongoClient(MONGO_URI)
 
-db = client["ai_image_generator"]
+db = client["Database Name"]
 
 # collections
 users_collection = db["users"]
