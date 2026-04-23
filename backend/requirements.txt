@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pymongo
+python-dotenv
+passlib
+bcrypt
+python-jose
+diffusers
+transformers
+torch
+pillow
